@@ -39,8 +39,8 @@ All the models parameters are tuned and optimized.
 | Model Name  | Accuracy    | Precision     | Recall | F1-Score|
 | :---        |    :----:   |   ---:        |  ---:  |  ---:   |
 | Logistic Regression     | 0.9156     | 0.9157   |   0.9156    |   0.9156      |
-| Multinomial Naive Bayes | 0.8858      | 0.8863    |  :0.8858      | 0.8859        |
-| Deep Neural Network | 0.9318      | :0.9320    |  0.9318     |   0.9318      |
+| Multinomial Naive Bayes | 0.8858      | 0.8863    |  0.8858      | 0.8859        |
+| Deep Neural Network | 0.9318      | 0.9320    |  0.9318     |   0.9318      |
 | CNN | 0.9061    | 0.9067    |   0.9061    |     0.9060    |
 | Bi-LSTM | 0.9276        | 0.9277   |  0.9275      |    0.9275     |
 | CNN-BiLSTM Hybrid | 0.9061     | 0.9067      |  0.9061     |    0.9060     |
