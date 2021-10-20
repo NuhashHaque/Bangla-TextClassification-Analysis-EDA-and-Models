@@ -1,6 +1,6 @@
 # Bangla-TextClassification-EDA-and-Models
 ## Bangla-TextClassification-EDA-and-Models: Project Overview
-- In this project i have built some models to classify (**economy,sports,international,state,technology,entertainment,education'**) using machine learning and deeplearning models.
+- In this project i have built some models to classify texts catogorized (**economy,sports,international,state,technology,entertainment,education'**) using machine learning and deeplearning models.
 - For dataset i have used a public dataset available called **banglamct7-bangla-multiclass-text-dataset-7-tags** which is avaiable in [this](https://www.kaggle.com/gakowsher/banglamct7-bangla-multiclass-text-dataset-7-tags) link. 
 - **`Word embeding`** is used for deep learning models and **`TFIDF`** is used for machine learning models for feature represtations for extracting the semantic meaning of the words.
 - Machine Learning models has been built by using a **Logistic Regression** and **Multinomial Naieve Bayes**.
