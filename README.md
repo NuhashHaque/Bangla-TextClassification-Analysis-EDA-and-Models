@@ -45,8 +45,9 @@ All the models parameters are tuned and optimized.
 | Bi-LSTM | 0.9276        | 0.9277   |  0.9275      |    0.9275     |
 | CNN-BiLSTM Hybrid | 0.9061     | 0.9067      |  0.9061     |    0.9060     |
 
-In this simple model we have got **`81%`** validation accuracy which is not bad for such an multiclass imbalanced dataset. Besides Confusion Matrix and other evaluation measures have been taken to determine the effectiveness of the developed model. From the confusion matrix it is observed that the maximum number of misclassified headlines are fall in the caltegory of **`Natinal, International and Politics `** and it makes sense because this categories headlines are kind of similar in words. The accuracy, precision, recall and f1-score result also demonstrate this issue. 
 
-**In conclusion, we have achieved a good accuracy of `84%` on this simple recurrent neural network for Bengali news headline categorization task. This accuray can be further improved by doing hyperparameter tunning and by employing more shophisticated network architecture with a large dataset.**
+In this project, i have found **`93%`** accuracy with Deep Neural Network model which is the best score.
+Report of classification and the Confusion Matrix shows that the models miss classified the category of  **`economy, state and education `**. It is because the text in this categories are very similar and contain similar words.
+**In conclusion, I have achieved good accuracy with different models. This accuray can be further improved by doing hyperparameter tunning and by employing more shophisticated network architecture like Transformers and Pretrained Embeddings.**
 
 
