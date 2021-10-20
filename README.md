@@ -31,20 +31,21 @@ To prepare data before model building, i have used TFIDF for machine learning an
 
 ## Model
 I have used Logistic Regression,Multinomial Naive Bayes,Deep Neural Networks,CNN,LSTM,CNN-BiLSTM hybrid model.
-All the models parameters are tuned and optimized
+All the models parameters are tuned and optimized.
+
 
 ## Model Evaluation 
 
 | Model Name  | Accuracy    | Precision     | Recall | F1-Score|
 | :---        |    :----:   |   ---:        |  ---:  |  ---:   |
-| Header      | Title       | Here's this   |        |         |
-| Paragraph   | Text        | And more      |        |         |
+| Logistic Regression     | 0.915678     | 0.91571   |   0.9156784     |   0.91563      |
+| Multinomial Naive Bayes | 0.88589      | 0.886305    |  :0.88589      | 0.88592        |
+| Deep Neural Network | 0.9318      | :0.93207    |  0.93184      |   0.9318      |
+| CNN | 0.9061    | 0.9067    |   0.90613     |     0.90608    |
+| Bi-LSTM | 0.9276        | 0.9277   |  0.9275      |    0.92759     |
+| CNN-BiLSTM Hybrid | 0.9061     | 0.9067      |  0.90613      |    0.906085     |
 
 In this simple model we have got **`81%`** validation accuracy which is not bad for such an multiclass imbalanced dataset. Besides Confusion Matrix and other evaluation measures have been taken to determine the effectiveness of the developed model. From the confusion matrix it is observed that the maximum number of misclassified headlines are fall in the caltegory of **`Natinal, International and Politics `** and it makes sense because this categories headlines are kind of similar in words. The accuracy, precision, recall and f1-score result also demonstrate this issue. 
-
-![confusion](/images/confusion.PNG)
-
-![performance](/images/performance.PNG)
 
 **In conclusion, we have achieved a good accuracy of `84%` on this simple recurrent neural network for Bengali news headline categorization task. This accuray can be further improved by doing hyperparameter tunning and by employing more shophisticated network architecture with a large dataset.**
 
