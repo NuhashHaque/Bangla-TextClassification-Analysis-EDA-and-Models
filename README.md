@@ -38,12 +38,12 @@ All the models parameters are tuned and optimized.
 
 | Model Name  | Accuracy    | Precision     | Recall | F1-Score|
 | :---        |    :----:   |   ---:        |  ---:  |  ---:   |
-| Logistic Regression     | 0.915678     | 0.91571   |   0.9156784     |   0.91563      |
-| Multinomial Naive Bayes | 0.88589      | 0.886305    |  :0.88589      | 0.88592        |
-| Deep Neural Network | 0.9318      | :0.93207    |  0.93184      |   0.9318      |
-| CNN | 0.9061    | 0.9067    |   0.90613     |     0.90608    |
-| Bi-LSTM | 0.9276        | 0.9277   |  0.9275      |    0.92759     |
-| CNN-BiLSTM Hybrid | 0.9061     | 0.9067      |  0.90613      |    0.906085     |
+| Logistic Regression     | 0.9156     | 0.9157   |   0.9156    |   0.9156      |
+| Multinomial Naive Bayes | 0.8858      | 0.8863    |  :0.8858      | 0.8859        |
+| Deep Neural Network | 0.9318      | :0.9320    |  0.9318     |   0.9318      |
+| CNN | 0.9061    | 0.9067    |   0.9061    |     0.9060    |
+| Bi-LSTM | 0.9276        | 0.9277   |  0.9275      |    0.9275     |
+| CNN-BiLSTM Hybrid | 0.9061     | 0.9067      |  0.9061     |    0.9060     |
 
 In this simple model we have got **`81%`** validation accuracy which is not bad for such an multiclass imbalanced dataset. Besides Confusion Matrix and other evaluation measures have been taken to determine the effectiveness of the developed model. From the confusion matrix it is observed that the maximum number of misclassified headlines are fall in the caltegory of **`Natinal, International and Politics `** and it makes sense because this categories headlines are kind of similar in words. The accuracy, precision, recall and f1-score result also demonstrate this issue. 
 
