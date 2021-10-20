@@ -15,8 +15,8 @@
 ## Project Outline 
 - Data Collection and Cleaning
 - Data Summary
-- Data Preparation for Model Building
-- Model Development
+- Data Preparation
+- Model
 - Model Evaluation
 
 
@@ -24,25 +24,21 @@
 The dataset contains clean data ready to be used for feature extraction and classification.But i have applied Stopwords removal and Stemming on the clean data.
 
 ## Data Summary 
-Data summary is done in a single notebook available in [this](https://github.com/NuhashHaque/Bangla-TextClassification-Analysis-EDA-and-Models/blob/main/EDA%20on%20BanglatText.ipynb) link.IN EDA notebook, i have shown number of documents, words and unique words have in each category class, histogram analysis to text length and Ngram analysis upto trigram in each category.
+Data summary is done in a single notebook available in [this](https://github.com/NuhashHaque/Bangla-TextClassification-Analysis-EDA-and-Models/blob/main/EDA%20on%20BanglatText.ipynb) link.In EDA notebook, i have shown number of documents, words and unique words have in each category class, histogram analysis to text length and Ngram analysis upto trigram in each category.
 
-## Data Preparation for Model Building
+## Data Preparation
+To prepare data before model building, i have used TFIDF for machine learning and Word Embedding for deep learning models.The parameters are optimized and tuned with respect to the EDA results.
 
-The text data are represented by a encoded sequence where the sequences are the vector of index number of the contains words in each headlines. The categories are also encoded into numeric values. After preparing the headlines and labels it looks as -
-![ecoded_sequence](/images/padded.PNG)  ![labels](/images/encoded_labels.PNG)
-
-For Model Evaluation the encoded headlines are splitted into **Train-Test-Validation Set**. The distribution has -
-
-![split](/images/train_test_split.PNG)
-
-
-## Model Development 
-
-The used model architecture consists of a **embedding layer(`input_length = 21, embedding_dim = 64`), GRU layer(`n_units = 64`), two dense layer (`n_units = 24, 6`), a dropout  and a softmax layer**. The Architecture looks like- 
-
-![model](/images/model_architecture.PNG)
+## Model
+I have used Logistic Regression,Multinomial Naive Bayes,Deep Neural Networks,CNN,LSTM,CNN-BiLSTM hybrid model.
+All the models parameters are tuned and optimized
 
 ## Model Evaluation 
+
+| Model Name  | Accuracy    | Precision     | Recall | F1-Score|
+| :---        |    :----:   |   ---:        |  ---:  |  ---:   |
+| Header      | Title       | Here's this   |        |         |
+| Paragraph   | Text        | And more      |        |         |
 
 In this simple model we have got **`81%`** validation accuracy which is not bad for such an multiclass imbalanced dataset. Besides Confusion Matrix and other evaluation measures have been taken to determine the effectiveness of the developed model. From the confusion matrix it is observed that the maximum number of misclassified headlines are fall in the caltegory of **`Natinal, International and Politics `** and it makes sense because this categories headlines are kind of similar in words. The accuracy, precision, recall and f1-score result also demonstrate this issue. 
 
