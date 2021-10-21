@@ -38,12 +38,12 @@ All the models parameters are tuned and optimized.
 
 | Model Name  | Accuracy    | Precision     | Recall | F1-Score|
 | :---        |    :----:   |   ---:        |  ---:  |  ---:   |
-| Logistic Regression     | 0.9156     | 0.9157   |   0.9156    |   0.9156      |
-| Multinomial Naive Bayes | 0.8858      | 0.8863    |  0.8858      | 0.8859        |
-| Deep Neural Network | 0.9318      | 0.9320    |  0.9318     |   0.9318      |
-| CNN | 0.9061    | 0.9067    |   0.9061    |     0.9060    |
-| Bi-LSTM | 0.9276        | 0.9277   |  0.9275      |    0.9275     |
-| CNN-BiLSTM Hybrid | 0.9061     | 0.9067      |  0.9061     |    0.9060     |
+| [Logistic Regression ](https://github.com/NuhashHaque/Bangla-TextClassification-Analysis-EDA-and-Models/blob/main/Bangla%20Text%20Classification%20With%20Logistic%20Regression%20%26%20Multinomial%20Naive%20Bayes.ipynb)    | 0.9156     | 0.9157   |   0.9156    |   0.9156      |
+| [Multinomial Naive Bayes](https://github.com/NuhashHaque/Bangla-TextClassification-Analysis-EDA-and-Models/blob/main/Bangla%20Text%20Classification%20With%20Logistic%20Regression%20%26%20Multinomial%20Naive%20Bayes.ipynb) | 0.8858      | 0.8863    |  0.8858      | 0.8859        |
+| [Deep Neural Network](https://github.com/NuhashHaque/Bangla-TextClassification-Analysis-EDA-and-Models/blob/main/Bangla%20Text%20Classification%20With%20Deep%20Neural%20Networks.ipynb) | 0.9318      | 0.9320    |  0.9318     |   0.9318      |
+| [CNN](https://github.com/NuhashHaque/Bangla-TextClassification-Analysis-EDA-and-Models/blob/main/Bangla%20Text%20Classification%20With%20CNN.ipynb) | 0.9061    | 0.9067    |   0.9061    |     0.9060    |
+| [Bi-LSTM](https://github.com/NuhashHaque/Bangla-TextClassification-Analysis-EDA-and-Models/blob/main/Bangla%20Text%20Classification%20With%20Bi-LSTM.ipynb) | 0.9276        | 0.9277   |  0.9275      |    0.9275     |
+| [CNN-BiLSTM Hybrid](https://github.com/NuhashHaque/Bangla-TextClassification-Analysis-EDA-and-Models/blob/main/Bangla%20Text%20Classification%20With%20CNN-Bi-LSTM%20Hybrid%20Network.ipynb) | 0.9061     | 0.9067      |  0.9061     |    0.9060     |
 
 
 In this project, i have found **`93%`** accuracy with Deep Neural Network model which is the best score.
